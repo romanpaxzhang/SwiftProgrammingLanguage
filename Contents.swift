@@ -80,3 +80,43 @@ let age = -3
 //
 //precondition(index > 0, "Index must be greater than zero.")
 
+//Basic Operators
+//Terminology: unary, binary, ternary
+
+//Assignment Operator
+let b = 10
+var a = 5
+a = b
+
+let (x , y) = (1 , 2)
+
+//Arithmetic Operators: +, -, *, /
+//Remainder Operator
+9 % 4
+
+//Comparison Operators
+(3, "apple") < (3, "bird")  //ordered lexicographically
+
+//Ternary Conditional Operator: question? answer 1 : answer 2
+
+//Nil-Coalescing Operator a ?? b (a ! = nil ? a ! : b)
+
+//Range Operators
+for index in 1...5 {
+    print("\(index) times 5 is \(index * 5)")
+}
+let names = ["Anna", "Alex", "Brian", "Jack"]
+let count = names.count
+for i in 0..<count {
+    print("Person \(i+1) is called \(names[i])")
+}
+
+for name in names[2...]{
+    print(name)
+}
+let range = ...5
+range.contains(7)
+
+//Logical Operators: !a, a && b, a || b
+
+//Strings and Characters
